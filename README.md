@@ -24,7 +24,11 @@ Sentiment analysis and user engagement mining on 1.6M tweets using Hadoop, Spark
 - Apache Spark (PySpark)  
 - Python (VADER, Pandas)  
 - Power BI  
-- Jupyter Notebook  
+- Jupyter Notebook
+
+  ## Power BI dashboard
+  ![image](https://github.com/user-attachments/assets/b895ad7c-59c9-4bc2-ba65-bcd0b9cdc027)
+
 
 ## 📁 Project Structure
 
