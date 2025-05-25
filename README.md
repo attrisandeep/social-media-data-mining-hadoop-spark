@@ -34,7 +34,6 @@ The project is organized as follows:
 │
 ├── data/
 │ ├── raw/ # Original dataset files (e.g., sentiment140.csv)
-│ ├── processed/ # Cleaned or transformed data ready for analysis
 │
 ├── notebooks/
 │ ├── data_preprocessing.ipynb
@@ -43,12 +42,11 @@ The project is organized as follows:
 │
 ├── scripts/
 │ ├── hadoop_setup.sh
-│ ├── spark_job.py
-│ ├── data_cleaning.py
+| ├── Spark_setup.sh
 │
 ├── powerbi/
 │ ├── dashboard.pbix
 │ ├── data_exports/
 │
 ├── requirements.txt # Python dependencies
-├── README.md ```
+├── README.md
