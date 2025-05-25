@@ -33,22 +33,11 @@ Sentiment analysis and user engagement mining on 1.6M tweets using Hadoop, Spark
 The project is organized as follows:
 
 ```social-media-data-mining/
-│
-├── data/
-│ ├── raw/ # Original dataset files (e.g., sentiment140.csv)
-│
-├── notebooks/
-│ ├── data_preprocessing.ipynb
-│ ├── sentiment_analysis.ipynb
-│ ├── user_engagement_analysis.ipynb
-│
-├── scripts/
-│ ├── hadoop_setup.sh
-| ├── Spark_setup.sh
-│
-├── powerbi/
-│ ├── dashboard.pbix
-│ ├── data_exports/
-│
-├── requirements.txt # Python dependencies
-├── README.md
+├── .gitignore
+├── LICENSE
+├── Notebook.ipynb                         # Combined notebook for preprocessing, analysis
+├── Outputdataset.csv                      # Final output with user, total tweets, sentiment
+├── powerBI.pbix                           # Power BI dashboard file
+├── README.md                              # Project overview and documentation
+├── requirements.txt                       # Python dependencies for PySpark and NLP
+
